@@ -22,3 +22,18 @@ class NewVisitorTest(LiveServerTestCase):
 
         # the page loads and sees the title
         self.assertIn('Jon Redeker', self.browser.title)
+
+
+class PollsVisitorTest(LiveServerTestCase):
+
+    def setUp(self):
+        self.browser = webdriver.Firefox()
+
+    def tearDown(self):
+        self.browser.quit()
+
+    def test_user_can_visit_polls(self):
+        # user opens the polls home
+        self.browser.get(self.live_server_url)
+        current_url = self.browser.current_url
+
