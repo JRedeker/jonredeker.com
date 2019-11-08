@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "An interview with myself"
+date:   2019-10-8 18:05:55 +0300
+image:  jonwithphone.jpg
+tags:   [personal]
+---
+#### Hey Jon, thanks for sitting down with us today.
+No problem
+
+#### So it looks like you've created your own personal website, what's all that about?
+Today I launch my personal website, marking my first foray into blogging (well, outside of a post I did in 2010 as a college freshmen claiming I was destined to be a little league champion coach) and establishing some sort of idea of meaningful online presence.
+
+#### Right, and why would anyone want to hear what you have to say?
+I've always had a passion for trying to defend the indefensible.  Not in a crooked way or supporting injustice, I just like to try and zig when everyone else is zagging.  I think I can do that and deliver it in an entertaining package.
+
+#### So, you're egotistical?
+It's possible.  I like reading my own voice, and hope others will find it enjoyable as well.
+
+#### Interesting.  So what does this "voice" plan on writing about?
+- Sports, espescially the NBA and my beloved Chicago Cubs
+- Technology, specifically consumer focused stuff
+- Consumerism, and how I see it affecting the world
+
+and probably a bunch more.  I'm looking forward to weaving these things together too.
+
+#### So what is this going to look like?
+Honestly, I don't know.  It's going to include of a lot of riduculous statements that I'll try and back up.  It's going to get weird.  It's going to be slightly off-kilter- If not, I've failed the vision in my own head.
+
+#### Mhmm.  Sounds like you've got a lot to get working on
+I do!  For anyone out there looking to follow along, I'll be providing a newsletter link in the coming days once I have some content.
+
+#### Sure.  Good luck, weirdo!
+Thanks, me!
+
+
+
+
+
+### For anyone wondering how I made this site:
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
