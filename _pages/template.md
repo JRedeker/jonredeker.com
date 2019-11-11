@@ -96,10 +96,10 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ### Images
 
-![]({{site.baseurl}}/img/03.jpg)
+![]({{site.baseurl}}/img/08.jpg)
 
 ***
 
 ### Videos
 
-<iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ofaRvNOV4SI" frameborder="0" allowfullscreen></iframe>
