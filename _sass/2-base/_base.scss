@@ -3,7 +3,8 @@ $base-font-size: 16px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: -apple-system,
+$base-font-family: 'Roboto Slab',
+-apple-system,
 system-ui,
 BlinkMacSystemFont,
 'Segoe UI',
@@ -52,8 +53,7 @@ body {
 
 // Headings
 $heading-font-weight: 700;
-$heading-font-family: 'Roboto Slab',
--apple-system,
+$heading-font-family : -apple-system,
 BlinkMacSystemFont,
 Helvetica Neue,
 Helvetica,
