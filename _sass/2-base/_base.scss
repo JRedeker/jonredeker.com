@@ -1,5 +1,5 @@
 // Body
-$base-font-size: 16px;
+$base-font-size: 18px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
@@ -53,7 +53,8 @@ body {
 
 // Headings
 $heading-font-weight: 700;
-$heading-font-family : -apple-system,
+$heading-font-family: system-ui,
+-apple-system,
 BlinkMacSystemFont,
 Helvetica Neue,
 Helvetica,
@@ -64,7 +65,7 @@ $font-size-h2: 28px;
 $font-size-h3: 24px;
 $font-size-h4: 20px;
 $font-size-h5: 18px;
-$font-size-h6: 16px;
+$font-size-h6: 18px;
 $heading-line-height: 1.2;
 h1,
 h2,
@@ -72,37 +73,44 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: initial;
+    // line-height: initial;
+    line-height: $heading-line-height;
 }
 
 h1 {
     font-size: $font-size-h1;
     font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
 }
 
 h2 {
     font-size: $font-size-h2;
     font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
 }
 
 h3 {
     font-size: $font-size-h3;
     font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
 }
 
 h4 {
     font-size: $font-size-h4;
     font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
 }
 
 h5 {
     font-size: $font-size-h5;
     font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
 }
 
 h6 {
     font-size: $font-size-h6;
     font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
 }
 
 // Blockquote
