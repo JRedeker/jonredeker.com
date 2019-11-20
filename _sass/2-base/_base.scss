@@ -1,9 +1,10 @@
 // Body
-$base-font-size: 16px;
+$base-font-size: 18px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: -apple-system,
+$base-font-family: 'Bitter',
+-apple-system,
 system-ui,
 BlinkMacSystemFont,
 'Segoe UI',
@@ -12,7 +13,7 @@ Roboto,
 Ubuntu,
 Arial,
 sans-serif;
-$base-line-height: 28px;
+$base-line-height: 26px;
 *,
 *::after,
 *::before {
@@ -51,13 +52,13 @@ body {
 }
 
 // Headings
-$heading-font-weight: 700;
-$heading-font-family: 'Roboto Slab',
-system-ui,
+$heading-font-weight: 800;
+$heading-font-family: system-ui,
 -apple-system,
 BlinkMacSystemFont,
 Helvetica Neue,
 Helvetica,
+'Roboto',
 Arial,
 sans-serif;
 $font-size-h1: 36px;
