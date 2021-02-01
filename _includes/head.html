@@ -10,31 +10,18 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ " /feed.xml " | relative_url }}">
 
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <!-- Ionicons -->
     <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
     <!-- CMS -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+
     <style>
-        {
-            % capture include_to_scssify %
-        }
-        
-        {
-            % include main.scss %
-        }
-        
-        {
-            % endcapture %
-        }
-        
-        {
-            {
-                include_to_scssify | scssify
-            }
-        }
+        {% capture include_to_scssify %}
+            {% include main.scss %}
+        {% endcapture %}
+        {{ include_to_scssify | scssify }}
     </style>
 </head>

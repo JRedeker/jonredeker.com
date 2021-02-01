@@ -16,8 +16,7 @@ author-avatar: 09.jpg
 #-------------------------------
 # Contact links
 twitter:   https://twitter.com/Jon_Redeker # Add your Twitter handle
-instagram: https://www.instagram.com/jonredeker/ # Add your Facebook handle
-linkedin: https://www.linkedin.com/in/jredeker/ # Add your Facebook handle
+linkedin: https://www.linkedin.com/in/jredeker/ # Add your Linkedin handle
 
 
 #-------------------------------
@@ -26,8 +25,8 @@ disqus-identifier: false # Add your shortname for Disqus Comment. For example mr
 
 
 #-------------------------------
-# Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+#  Feed
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 
 
 #-------------------------------
