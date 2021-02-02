@@ -61,7 +61,10 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  jekyll (>= 3.8.4)
+  jekyll
   jekyll-paginate
   jekyll-sitemap
   tzinfo-data
+
+BUNDLED WITH
+   2.2.7
