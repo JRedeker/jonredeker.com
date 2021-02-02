@@ -22,7 +22,7 @@ $base-line-height: 26px;
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
-    line-height: $base-line-height;
+    line-height: 32px;
     color: $body-color;
     background: $background;
     overflow-x: hidden;
@@ -51,7 +51,7 @@ body {
 }
 
 // Headings
-$heading-font-weight: 800;
+$heading-font-weight: 400;
 $heading-font-family: 'Merriweather',
 serif;
 $font-size-h1: 36px;

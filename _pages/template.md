@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Template
+title: 
 permalink: /template/
 image: 11.jpg
 ---

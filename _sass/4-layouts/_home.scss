@@ -20,7 +20,7 @@
             font-size: 16px;
             font-weight: 700;
             line-height: 16px;
-            text-transform: uppercase;
+            // text-transform: uppercase;
             letter-spacing: 5px;
             color: $text;
             &:hover {
@@ -226,15 +226,18 @@
             line-height: 30px;
             font-weight: 700;
             a {
-                color: $text;
-                transition: $global-transition;
+                color: $black;
+                background-color: rgba(255, 255, 255, .75);
+                border-width: 5px;
             }
         }
         .article-excerpt {
-            max-width: 450px;
+            max-width: 350px;
             margin-bottom: 30px;
             font-size: 16px;
             line-height: 23px;
+            color: $black;
+            background-color: rgba(255, 255, 255, .75);
         }
         .button {
             font-size: 14px;
@@ -440,7 +443,7 @@
             .menu-link {
                 font-size: 13px;
                 font-weight: 700;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 line-height: 19px;
                 &:before {
                     content: none;
